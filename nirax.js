@@ -15,7 +15,7 @@ export default class {
   
     if (req.ok) { res = await req.json() }
     else { console.log(req) }
-    return res
+    return res.idSession
   }
   
 
